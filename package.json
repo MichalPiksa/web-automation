@@ -1,0 +1,22 @@
+{
+  "name": "web-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalPiksa/web-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalPiksa/web-automation/issues"
+  },
+  "homepage": "https://github.com/MichalPiksa/web-automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^24.0.0"
+  }
+}
