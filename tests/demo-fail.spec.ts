@@ -3,8 +3,8 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-const USERNAME = process.env.USERNAME!;
-const PASSWORD = process.env.PASSWORD!;
+const USERNAME = process.env.VALID_USERNAME!;
+const PASSWORD = process.env.VALID_PASSWORD!;
 
 test.beforeEach(async ({ page }) => {
   await page.goto('https://saucedemo.com/');
